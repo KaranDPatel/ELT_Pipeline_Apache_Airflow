@@ -19,17 +19,29 @@ This project demonstrates a basic ETL (Extract, Transform, Load) pipeline using 
 simple_airflow_etl/
 
 ├── dags/
+
 │   └── simple_etl_dag.py       # Airflow DAG definition file
+
 ├── data/
+
 │   ├── input_data.csv           # Input data file
+
 │   ├── extracted_data.csv       # Extracted data (intermediate)
+
 │   ├── transformed_data.csv     # Transformed data (intermediate)
+
 │   └── output_data.csv          # Output data file
+
 ├── scripts/
+
 │   ├── extract.py               # Script to extract data
+
 │   ├── transform.py             # Script to transform data
+
 │   └── load.py                  # Script to load data
+
 └── README.md                    # Project README file
+
 
 **Prerequisites**
 
