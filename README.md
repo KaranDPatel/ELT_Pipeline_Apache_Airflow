@@ -108,7 +108,9 @@ Transformation Logic: Customize the transform.py script to perform different tra
 Schedule Interval: Adjust the schedule_interval in the DAG to control how often the ETL pipeline runs.
 
 **Learning Objectives**
+
 Understand the basics of Apache Airflow, including DAGs, tasks, and operators.
 
 Learn how to orchestrate an ETL pipeline using Python and Airflow.
+
 Gain hands-on experience with task scheduling and workflow automation.
